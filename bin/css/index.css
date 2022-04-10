@@ -1,0 +1,464 @@
+body{
+	padding: 0;
+	margin:0;
+}
+*{
+		font-family: Akrobat;
+}
+.navbar-toggle{
+	background-color: rgb(255,0,0);
+}
+.navbar-toggle icon-bar{
+	background-color: rgb(255,255,255);
+}
+.title{
+	margin-left: 120px;
+	margin-top:30px;
+	width: auto;
+	text-align: left;
+	line-height: 1.3em;
+	letter-spacing: .01em;
+}
+.title a{
+	text-decoration:none;
+	color: rgb(0,0,0);
+
+}
+.fixed-header{
+	background-color: rgb(255,0,0); 
+	width: relative;
+	position: fixed-top;
+	min-height: 50px;
+	padding:0;
+	margin:0;
+	color:rgb(255,255,255);
+	display: inline-block;
+	 }
+.fixed-header h4{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#mail{
+	position: absolute;
+	left:0;
+	margin-left: 20px;
+}
+#info{
+	height:500px;
+	width:relative;
+	padding:0;
+	margin:0;
+	background-color: rgb(0,0,0);
+}
+.welcome{
+	width:relative;
+	padding:0;
+	margin:0;
+}
+#welcome{
+background-image: url('../images/boardroom.jpg');
+background-size:cover;
+text-align: center;
+width:relative;
+height:500px;
+}
+#welcome h1{
+	color: rgb(255,255,255);
+	font-family:Century Gothic;
+	font-size:50px;
+	margin-top: -50px;
+}
+#welcome h2{
+	transform: scale(6);
+	font-weight: 800;
+	margin-top: 200px;
+	color: rgb(255,0,0);
+	opacity: .4;
+}
+.founders{
+	width:relative;
+	height: auto;
+	padding:60px 0px 60px 0px;
+	margin:0;
+}
+.bishop{
+	width:relative;
+	height:auto;
+}
+.bishop img{
+	width: 300px;
+	height: 300px;
+	padding:0;
+	margin:0;
+}
+.mission-statement{
+	text-align: center;
+}
+.mission-statement h4{
+	color: rgb(0,0,0);
+}
+.mission-statement h1{
+
+	font-family: Trebuchet MS;
+}
+.divider{
+	width:relative;
+	background-color:rgb(255,0,0);
+	height: 2px;
+	border-radius: 20px;
+}
+.divider-two{
+	width:relative;
+	background-color:rgb(255,255,255);
+	height: 2px;
+	border-radius: 20px;
+	line-height: 2em;
+	margin-bottom: 30px;
+}
+blockquote{
+	text-align: left;
+	font-weight: 700;
+	margin-top:20px;
+	line-height: 2.2em;
+}
+.services{
+	width:relative;
+	height: auto;
+	padding:40px 0px 40px 0px;
+	background-color: rgb(255,0,0);
+}
+.services h1,h2{
+
+	font-family: Trebuchet MS;
+}
+/* --MOBILE PHONES--*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	#location{
+		display: none;
+	}
+	#welcome h2{
+	transform: scale(3);
+	font-weight: 800;
+	margin-top: 200px;
+	color: rgb(255,0,0);
+	opacity: .4;
+}
+} 
+
+.sermon{
+	width: relative;
+	height: auto;
+	padding:20px 0px 20px 0px;
+	margin: 0;
+	text-align: center;
+}
+.sermon-title{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	height: auto;
+}
+.sermon-title h4{
+	line-height: 2em;
+	color: rgb(0,0,0);
+}
+.sermon h2{
+	font-family: Trebuchet MS;
+	color:rgb(255,0,0);
+}
+.watch-sermon{
+	width:35px;
+	height:35px;
+	background-color: rgb(255,0,0);
+	color:rgb(255,255,255);
+	font-size:13px;
+	border-radius:50%;
+}
+.watch-sermon:hover{
+	transform:scale(1.08);
+	border-radius:10%;
+	border:1px rgb(200,0,0) solid;
+	transition:.2s ease-in-out;
+}
+.watch{
+	display: inline-block;
+}
+.watch a{
+	color: rgb(0,0,0);
+	text-decoration:none;
+	font-weight: 800;
+	font-size:20px;
+	line-height: 3em;
+}
+#services{
+background-image: url('../images/head.png');
+background-size:cover;
+text-align: center;
+width:relative;
+height:500px;
+}
+#sermon{
+background-image: url('../images/head-two.png');
+background-size:cover;
+text-align: center;
+width:relative;
+height:500px;
+}
+#locate{
+	position: absolute;
+	right:0;
+	margin-right: 20px;
+}
+.carousel-control{
+	position:absolute;
+	bottom:0;
+}
+.carousel-inner{
+	width:relative;
+	height:auto;
+	padding:0;
+	margin:0;
+}
+.carousel-inner .item{
+	width:relative;
+	height:auto;
+}
+.services{
+	text-align: center;
+	color: rgb(255,255,255);
+}
+.nav1{
+	background-color: rgb(255,255,255); 
+	width: relative;
+	position: fixed-top;
+	min-height: 100px;	
+	box-shadow: 0px 8px 10px 0px rgba(0,0,0,.1);
+	 }
+.nav2{
+	 	background-color: rgb(255,255,255);
+	 	width: relative;
+	position: fixed-top;
+	min-height: 100px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
+	 }
+.active{
+box-shadow: 0px 1px 0px 0px rgb(245,157,58);
+}
+.active:hover{
+	box-shadow: 0px 2px 0px 0px rgb(245,157,58);
+	transition: .3s ease-in-out;
+}
+.nav-navbar ul li{
+	display: inline-block;
+	width:relative;
+	position: center;
+	margin-top: 40px;
+	cursor: pointer;
+}
+.navbar-nav{
+	position: absolute;
+	width: relative;
+	left:0;
+	right:0;
+}
+.nav-navbar li a{
+	font-family: Trebuchet MS;
+	letter-spacing: .15em;
+	color: rgb(0,0,0);
+	margin-right:20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	transition: .2s ease-in-out;
+
+}
+
+.nav-navbar li a:hover{
+	transform: scale(1.08);
+	transition: .5s ease-in-out;
+	color: rgb(255,0,0);
+}
+.navbar-brand{
+	background-image: url('../images/rgc-logo.png');
+	background-size: cover;
+	width: 80px;
+	min-height: 70px;
+	height: auto;
+	transform: scale(1.2);
+	margin-top: 5px;
+}
+
+.sample-book{
+	width: relative;
+	height: auto;
+	padding:20px 0px 50px 0px;
+	margin: 0;
+	text-align: center;
+}
+.about-book h2{
+	color:rgb(255,0,0);
+	font-family: Trebuchet MS;
+}
+.about-book{
+	text-align: center;
+	margin-top: 50px;
+}
+.about-book h4{
+	line-height: 2em;
+	color: rgb(0,0,0);
+}
+.about-book a{
+	color: rgb(0,0,0);
+	text-decoration:none;
+	font-weight: 800;
+	font-size:20px;
+}
+
+.newsletter{
+	width: relative;
+	height: auto;
+	padding:20px 0px 50px 0px;
+	margin: 0;
+	text-align: center;
+	background-image: url('../images/head.png');
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+.newsletter h2,label{
+	color: rgb(255,255,255);
+}
+.newsletter form{
+	margin-top:20px;
+	font-size: 20px;
+}
+
+.recap{
+	width: relative;
+	height: auto;
+	padding:20px 0px 50px 0px;
+	margin: 0;
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	text-align: justify;
+	font-family: Trebuchet MS;
+}
+.recap a,h4{
+	font-size:20px;
+	color:rgb(255,255,255);
+	line-height: 2em;
+}
+.recap h3{
+	color: rgb(255,0,0);
+}
+.churchlocate{
+	width: relative;
+	height: 500px;
+	padding:0;
+	margin:0;
+}
+.copyright{
+	bottom: 0;
+	width: relative;
+	height:auto;
+	text-align: center;
+	color:rgb(255,255,255);
+	background-color: rgb(255,0,0);
+	padding:5px 0px 5px 0px;
+}
+.dropdown-menu{
+	background-color: rgba(255,0,0,.7);
+	width: relative;
+	padding-left: 20px;
+}
+.about-us{
+	width: relative;
+	height: 520px;
+	background-image: url('../images/youths.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+.about-us h3{
+	color: rgb(255,255,255);
+	font-family: Trebuchet MS;
+	font-size: 40px;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(255,0,0,.8);
+	padding: 10px 30px;
+	margin: 0;
+	border-radius: 0px 20px 0px 0px;
+}
+
+.our-mission{
+	text-align: center;
+	height: auto;
+	padding:40px 0px 40px 0px;
+}
+.our-mission h2{
+	font-family: Trebuchet MS;
+	color: rgb(255,0,0);
+	font-size: 40px;
+}
+.our-mission p{
+	line-height: 2em;
+	padding-top: 20px;
+	font-size: 19px;
+}
+
+.our-vision{
+	text-align: center;
+	height: auto;
+	padding:40px 0px 40px 0px;
+}
+.our-vision h2{
+	font-family: Trebuchet MS;
+	color: rgb(255,0,0);
+	font-size: 40px;
+}
+.our-vision p{
+	line-height: 2em;
+	padding-top: 20px;
+	font-size: 19px;
+}
+.sermons-list{
+	width:relative;
+	height: auto;
+	padding:40px 0px 40px 0px;
+}
+.sermons h2{
+	font-family: Trebuchet MS;
+}
+.sermons h5{
+	line-height: 2em;
+	font-size: 18px;
+}
+.sermons-right{
+	text-align: right;
+	background-image: linear-gradient(to left,rgb(220,0,0),rgba(0,0,0,.1));
+}
+.sermons-right h2{
+	font-family: Trebuchet MS;
+}
+.sermons-right h5{
+	line-height: 2em;
+	font-size: 18px;
+}
+.events{
+	width:relative;
+	height: auto;
+	padding:40px 0px 40px 0px;
+	text-align: center;
+}
+.events h2{
+	font-family: Trebuchet MS;
+}
+.events p{
+	line-height: 2em;
+	padding-top: 20px;
+	font-size: 18px;
+}
